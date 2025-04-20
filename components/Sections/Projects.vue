@@ -155,16 +155,16 @@ const mainProjects: Project[] = [
         "image": "./myspurr.png",
         "inverted": true
     },
-    {
-        "id": 4,
-        "title": "Sports Continent",
-        "descr": "A fully responsive E-commerce website with functioning search filters, Integrated Paystack payment gateway, user friendly UI and generally offers an impressive and smooth user experience.",
-        "stack": ["HTML", "JavaScript", "Axios", "VueJs", "TailwindCSS"],
-        "gitLink": "",
-        "liveLink": "https://www.shopsportscontinent.com/",
-        "image": "./sports-continent.png",
-        "inverted": false
-    },
+    // {
+    //     "id": 4,
+    //     "title": "Sports Continent",
+    //     "descr": "A fully responsive E-commerce website with functioning search filters, Integrated Paystack payment gateway, user friendly UI and generally offers an impressive and smooth user experience.",
+    //     "stack": ["HTML", "JavaScript", "Axios", "VueJs", "TailwindCSS"],
+    //     "gitLink": "",
+    //     "liveLink": "https://www.shopsportscontinent.com/",
+    //     "image": "./sports-continent.png",
+    //     "inverted": false
+    // },
     {
         "id": 5,
         "title": "Muso Ninjas",

@@ -10,4 +10,12 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  app: {
+    head: {
+      link: [
+        // or for PNG
+        { rel: 'icon', type: 'image/png', href: '/profilePicture.png' }
+      ]
+    }
+  }
 })
