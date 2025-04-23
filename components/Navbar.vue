@@ -68,7 +68,7 @@
           <h1 class="logo">
             <a href="#">Yemi<span>0la</span></a>
           </h1>
-          <button class="btn grid place-items-center !p-[0rem] !h-auto">
+          <button class="btn grid place-items-center !p-[0rem] !h-auto" @click="handleNavToggle">
             <Icon name="iconamoon:close-bold" size="25" class="!block"/>
           </button>
         </div>
@@ -148,7 +148,6 @@ const navLinks: Links[] = [
 
 const handleNavToggle = () => {
   showMobileNav.value = !showMobileNav.value
-  console.log('click')
 }
 
 function handleScroll(routeID: string) {
